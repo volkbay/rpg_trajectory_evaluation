@@ -168,7 +168,7 @@ class Trajectory:
 
     @staticmethod
     def get_suffix_str(suffix):
-        if suffix is not '':
+        if suffix:
             return "_#"+suffix
         else:
             return suffix
